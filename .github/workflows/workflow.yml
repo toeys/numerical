@@ -18,6 +18,10 @@ jobs:
       - name: npm install
         working-directory: ./react_numer-main
         run: npm install
+        
+      - name: npm i ci
+        working-directory: ./react_numer-main
+        run: npm i ci
 
       - name: npm run build
         working-directory: ./react_numer-main
